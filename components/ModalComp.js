@@ -10,8 +10,6 @@ function ModalComp(props) {
         >
             <View style={styles.centered}>
                 <View style={styles.modal}>
-
-
                     <View style={styles.modalBody}>
                         <Text style={styles.text}>
                             {props.textInMiddle}
@@ -39,10 +37,6 @@ function ModalComp(props) {
                     </View>
                 </View>
             </View>
-
-
-
-
         </Modal>
     )
 }
@@ -63,12 +57,6 @@ const styles = StyleSheet.create({
     modalBody: {
       backgroundColor: "#856464",
 
-    },
-    title: {
-        height: 60,
-        backgroundColor: "#fff",
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10
     },
     button: {
         height: 50,

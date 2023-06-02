@@ -1,8 +1,8 @@
-import SingleTaskScreen from "./Screens/SingleTaskScreen";
-import AddNewTaskScreen from "./Screens/AddNewTaskScreen";
+import LoveYouPage from "./Screens/LoveYouPage";
+import ImageLovePage from "./Screens/ImageLovePage";
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
-import ListScreen from "./Screens/ListScreen";
+import ListPage from "./Screens/ListPage";
 
 const Stack = createStackNavigator();
 
@@ -10,25 +10,19 @@ function StackNav() {
     return(
         <NavigationContainer>
             <Stack.Navigator>
-
                 <Stack.Screen
-                    name={"ListScreen"}
-                    component={ListScreen}
+                    name={"ListPage"}
+                    component={ListPage}
                     options={{headerShown: false}}
                     initialParams={{ RemoveThisId: ""}}/>
-
                 <Stack.Screen
-                    name={"SingleTaskScreen"}
-                    component={SingleTaskScreen}
+                    name={"LoveYouPage"}
+                    component={LoveYouPage}
                     options={{headerShown: false}}/>
-
                 <Stack.Screen
-                    name={"AddNewTaskScreen"}
-                    component={AddNewTaskScreen}
+                    name={"ImageLovePage"}
+                    component={ImageLovePage}
                     options={{headerShown: false}}/>
-
-
-
             </Stack.Navigator>
         </NavigationContainer>
     )

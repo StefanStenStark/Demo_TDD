@@ -19,14 +19,11 @@ ButtonComp.defaultProps = {
 }
 
 const styles = StyleSheet.create({
-
-
     buttonText: {
         color: "white",
         fontSize: 20
     },
     button: {
-        // backgroundColor: "#3f0528",
         flexDirection: "row",
         width: 200,
         height: 50,

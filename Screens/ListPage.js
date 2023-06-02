@@ -38,7 +38,7 @@ function ListPage({navigation}) {
                 onPressTwo={() => setShowModalList(false)}
                 textInMiddle={"Vad kul att du gillar det :)"}
                 firstButtonText={"Tack"}
-                secondButtonText={"Jag vet.."}
+                secondButtonText={"Jag vet..."}
             />
 
             <Text style={styles.text}>

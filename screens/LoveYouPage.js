@@ -72,10 +72,11 @@ function LoveYouPage({ navigation }) {
                         styles.button
                     ]}/>
 
-                <Text style={styles.text}>Gillar du den här sidan!?</Text>
+                <Text style={styles.text}>Hur mycket gillar du den här sidan!?</Text>
                 <TextInput
                     placeholder={""}
                     style={styles.input}
+                    keyboardType="numeric"
                     onChangeText={(value) => setName(value)}/>
                 <Text style={styles.text}>{name}</Text>
 

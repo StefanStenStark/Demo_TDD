@@ -1,8 +1,8 @@
-import LoveYouPage from "./Screens/LoveYouPage";
-import ImageLovePage from "./Screens/ImageLovePage";
+import LoveYouPage from "./screens/LoveYouPage";
+import ImageLovePage from "./screens/ImageLovePage";
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
-import ListPage from "./Screens/ListPage";
+import ListPage from "./screens/ListPage";
 
 const Stack = createStackNavigator();
 
